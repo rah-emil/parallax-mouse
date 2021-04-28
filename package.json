@@ -1,6 +1,6 @@
 {
   "name": "parallax-mouse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple parallax elements for the mouse.",
   "main": "src/parallax-mouse.js",
   "source": true,
