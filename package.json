@@ -5,10 +5,9 @@
   "main": "dist/parallax-mouse.js",
   "source": true,
   "scripts": {
-    "dev": "parcel example/*.html --open --no-cache",
-    "watch": "parcel watch example/*.html --open --no-cache",
-    "prod": "parcel build example/*.html --no-cache",
-    "plugin": "parcel build parallax-mouse.js --no-cache"
+    "clean": "rimraf ./dist",
+    "dev": "npm run clean && parcel src/*.html -p 3000 --open --no-cache",
+    "prod": "npm run clean && parcel build src/parallax-mouse.js"
   },
   "repository": {
     "type": "git",
@@ -29,6 +28,8 @@
   },
   "homepage": "https://github.com/rah-emil/parallax-mouse#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "@babel/core": "^7.13.16",
+    "parcel-bundler": "^1.12.5",
+    "rimraf": "^3.0.2"
   }
 }
