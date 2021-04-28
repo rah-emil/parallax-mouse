@@ -1,5 +1,3 @@
-import { parallaxMouse } from './../parallax-mouse.js'
-
 parallaxMouse({ elements: '.parallax__title', moveFactor: 20, wrap: '.parallax', perspective: '100px' })
 
 parallaxMouse({ elements: '.coubs__item-1', moveFactor: 20, wrap: '.parallax', perspective: '400px' })
