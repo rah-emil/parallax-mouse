@@ -34,7 +34,7 @@ Simple parallax elements for the mouse. Pure JavaScript.
 
 #### ES6
 ```javascript
-import { parallaxMouse } from 'parallax-mouse.js'
+import { parallaxMouse } from 'parallax-mouse/dist/parallax-mouse.min.js'
 
 parallaxMouse({ elements: '.cherry', moveFactor: 10, wrap: '.parallax', perspective: '100px' })
 ```
