@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
+## parallax-mouse.js 🔥
 
-You can use the [editor on GitHub](https://github.com/rah-emil/parallax-mouse/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Simple parallax elements for the mouse. Pure JavaScript.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Installation
+##### Using the CDN
+1. Add `<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax-mouse.js/1.0.0/parallax-mouse.min.js"></script>` to your markup
+2. Done!
 
-### Markdown
+##### Download file
+1. [Download file](https://cdnjs.cloudflare.com/ajax/libs/parallax-mouse.js/1.0.0/parallax-mouse.min.js "Download file")
+2. Copy the code and paste into your project.
+3. Done!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+##### NPM
+`npm install  parallax-mouse --save`
 
-```markdown
-Syntax highlighted code block
+### Getting started 
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+#### Tag script
+```html
+<body>
+	<div class="parallax">
+		<img src="http://placehold.it/50x50" class="cherry" alt="">
+	</div>
+	<!-- /.parallax -->
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax-mouse.js/1.0.0/parallax-mouse.min.js"></script>
+	<script>
+		parallaxMouse({ elements: '.cherry', moveFactor: 10, wrap: '.parallax', perspective: '100px' })
+	</script>
+</body>
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+#### ES6
+```javascript
+import { parallaxMouse } from 'parallax-mouse.js'
 
-### Jekyll Themes
+parallaxMouse({ elements: '.cherry', moveFactor: 10, wrap: '.parallax', perspective: '100px' })
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rah-emil/parallax-mouse/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Options
+| Name  | Default value  | Description  |
+| :------------ | :------------ | :------------ |
+| elements  | null  | Elements to be involved  |
+| moveFactor  | 5  | Scatter level of elements  |
+| wrap  | .container  | Wrapping elements (listens to mouse event)  |
+| perspective | false  | Needed if you want 3D effect of the elements. By Required in string format. For example, `perspective: '500px'`  |
+
 
 ### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+To contact me, write to me by mail: 013131@mail.ru
