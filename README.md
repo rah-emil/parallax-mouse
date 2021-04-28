@@ -3,6 +3,9 @@
 
 Simple parallax elements for the mouse. Pure JavaScript.
 
+### Demo
+[Watch demo](https://rah-emil.github.io/parallax-mouse/dist/ "Watch demo")
+
 ### Installation
 ##### Using the CDN
 1. Add `<script src="https://cdn.jsdelivr.net/npm/parallax-mouse@1.0.1/dist/parallax-mouse.min.js"></script>` to your markup
