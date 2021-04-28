@@ -6,8 +6,8 @@
   "source": true,
   "scripts": {
     "clean": "rimraf ./dist",
-    "dev": "npm run clean && parcel src/*.html -p 3000 --open --no-cache",
-    "prod": "npm run clean && parcel build src/parallax-mouse.js"
+    "dev": "parcel ./src/*.html -p 3000 --open --no-cache",
+    "prod": "parcel build ./src/parallax-mouse.js --out-file parallax-mouse.min.js"
   },
   "repository": {
     "type": "git",

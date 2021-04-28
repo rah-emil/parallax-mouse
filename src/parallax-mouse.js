@@ -5,7 +5,6 @@ export function parallaxMouse(options) {
 	const elements = document.querySelectorAll(options.elements) ?? console.warn('parallaxMouse: Elements is empty!')
 	const moveFactor = options.moveFactor ?? 5
 	const wrap = options.wrap ?? '.container'
-	const animate = options.animate ?? false
 	const perspective = options.perspective ?? false
 
 	/**

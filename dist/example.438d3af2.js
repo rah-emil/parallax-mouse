@@ -126,7 +126,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.parallaxMouse = parallaxMouse;
 
 function parallaxMouse(options) {
-  var _document$querySelect, _options$moveFactor, _options$wrap, _options$animate, _options$perspective;
+  var _document$querySelect, _options$moveFactor, _options$wrap, _options$perspective;
 
   /**
    * Setting options
@@ -134,7 +134,6 @@ function parallaxMouse(options) {
   var elements = (_document$querySelect = document.querySelectorAll(options.elements)) !== null && _document$querySelect !== void 0 ? _document$querySelect : console.warn('parallaxMouse: Elements is empty!');
   var moveFactor = (_options$moveFactor = options.moveFactor) !== null && _options$moveFactor !== void 0 ? _options$moveFactor : 5;
   var wrap = (_options$wrap = options.wrap) !== null && _options$wrap !== void 0 ? _options$wrap : '.container';
-  var animate = (_options$animate = options.animate) !== null && _options$animate !== void 0 ? _options$animate : false;
   var perspective = (_options$perspective = options.perspective) !== null && _options$perspective !== void 0 ? _options$perspective : false;
   /**
    * Set 'preserve-3d' for perspective objects
@@ -348,7 +347,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59385" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61606" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
