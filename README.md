@@ -1,4 +1,5 @@
 ## parallax-mouse.js 🔥
+![](https://img.shields.io/github/issues/rah-emil/parallax-mouse) ![](https://img.shields.io/github/forks/rah-emil/parallax-mouse) ![](https://img.shields.io/github/stars/rah-emil/parallax-mouse) ![](https://img.shields.io/github/license/rah-emil/parallax-mouse) ![](https://data.jsdelivr.com/v1/package/npm/parallax-mouse/badge?style=rounded) 
 
 Simple parallax elements for the mouse. Pure JavaScript.
 
