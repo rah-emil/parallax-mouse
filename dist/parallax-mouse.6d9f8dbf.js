@@ -158,168 +158,9 @@ function parallaxMouse(options) {
     });
   });
 }
-},{}],"example.js":[function(require,module,exports) {
-"use strict";
 
-var _parallaxMouse = require("./parallax-mouse.js");
-
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.parallax__title',
-  moveFactor: 20,
-  wrap: '.parallax',
-  perspective: '100px'
-});
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.coubs__item-1',
-  moveFactor: 20,
-  wrap: '.parallax',
-  perspective: '400px'
-});
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.coubs__item-2',
-  moveFactor: 10,
-  wrap: '.parallax',
-  perspective: '400px'
-});
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.coubs__item-3',
-  moveFactor: 50,
-  wrap: '.parallax',
-  perspective: '400px'
-});
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.coubs__item-4',
-  moveFactor: 10,
-  wrap: '.parallax',
-  perspective: '400px'
-});
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.coubs__item-5',
-  moveFactor: 20,
-  wrap: '.parallax',
-  perspective: '400px'
-});
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.coubs__item-6',
-  moveFactor: 50,
-  wrap: '.parallax',
-  perspective: '400px'
-});
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.coubs__item-7',
-  moveFactor: 20,
-  wrap: '.parallax',
-  perspective: '400px'
-});
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.coubs__item-8',
-  moveFactor: 25,
-  wrap: '.parallax',
-  perspective: '400px'
-});
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.coubs__item-9',
-  moveFactor: 70,
-  wrap: '.parallax',
-  perspective: '400px'
-});
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.coubs__item-10',
-  moveFactor: 20,
-  wrap: '.parallax',
-  perspective: '400px'
-});
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.coubs__item-11',
-  moveFactor: 20,
-  wrap: '.parallax',
-  perspective: '400px'
-});
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.coubs__item-12',
-  moveFactor: 30,
-  wrap: '.parallax',
-  perspective: '400px'
-});
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.coubs__item-13',
-  moveFactor: 10,
-  wrap: '.parallax',
-  perspective: '400px'
-});
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.coubs__item-14',
-  moveFactor: 20,
-  wrap: '.parallax',
-  perspective: '400px'
-});
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.coubs__item-15',
-  moveFactor: 10,
-  wrap: '.parallax',
-  perspective: '400px'
-});
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.coubs__item-16',
-  moveFactor: 70,
-  wrap: '.parallax',
-  perspective: '400px'
-});
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.coubs__item-17',
-  moveFactor: 50,
-  wrap: '.parallax',
-  perspective: '400px'
-});
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.coubs__item-18',
-  moveFactor: 20,
-  wrap: '.parallax',
-  perspective: '400px'
-});
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.coubs__item-19',
-  moveFactor: 10,
-  wrap: '.parallax',
-  perspective: '400px'
-});
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.coubs__item-20',
-  moveFactor: 50,
-  wrap: '.parallax',
-  perspective: '400px'
-});
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.coubs__item-21',
-  moveFactor: 70,
-  wrap: '.parallax',
-  perspective: '400px'
-});
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.coubs__item-22',
-  moveFactor: 50,
-  wrap: '.parallax',
-  perspective: '400px'
-});
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.coubs__item-23',
-  moveFactor: 10,
-  wrap: '.parallax',
-  perspective: '400px'
-});
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.coubs__item-24',
-  moveFactor: 15,
-  wrap: '.parallax',
-  perspective: '400px'
-});
-(0, _parallaxMouse.parallaxMouse)({
-  elements: '.coubs__item-25',
-  moveFactor: 20,
-  wrap: '.parallax',
-  perspective: '400px'
-});
-},{"./parallax-mouse.js":"parallax-mouse.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+window.parallaxMouse = parallaxMouse;
+},{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -347,7 +188,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61606" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65414" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -523,5 +364,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","example.js"], null)
-//# sourceMappingURL=/example.438d3af2.js.map
+},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","parallax-mouse.js"], null)
+//# sourceMappingURL=/parallax-mouse.6d9f8dbf.js.map

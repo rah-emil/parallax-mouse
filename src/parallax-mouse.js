@@ -1,4 +1,4 @@
-export function parallaxMouse(options) {
+function parallaxMouse(options) {
 	/**
 	 * Setting options
 	 */
@@ -32,3 +32,6 @@ export function parallaxMouse(options) {
 		})
 	})
 }
+
+window.parallaxMouse = parallaxMouse
+export { parallaxMouse }

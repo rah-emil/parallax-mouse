@@ -2,7 +2,7 @@
   "name": "parallax-mouse",
   "version": "1.0.0",
   "description": "Simple parallax elements for the mouse.",
-  "main": "dist/parallax-mouse.js",
+  "main": "src/parallax-mouse.js",
   "source": true,
   "scripts": {
     "clean": "rimraf ./dist",
