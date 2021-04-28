@@ -5,11 +5,11 @@ Simple parallax elements for the mouse. Pure JavaScript.
 
 ### Installation
 ##### Using the CDN
-1. Add `<script src="https://cdn.jsdelivr.net/npm/parallax-mouse@1.0.0/dist/parallax-mouse.min.js"></script>` to your markup
+1. Add `<script src="https://cdn.jsdelivr.net/npm/parallax-mouse@1.0.1/dist/parallax-mouse.min.js"></script>` to your markup
 2. Done!
 
 ##### Download file
-1. [Download file](https://cdn.jsdelivr.net/npm/parallax-mouse@1.0.0/dist/parallax-mouse.min.js "Download file")
+1. [Download file](https://cdn.jsdelivr.net/npm/parallax-mouse@1.0.1/dist/parallax-mouse.min.js "Download file")
 2. Copy the code and paste into your project.
 3. Done!
 
@@ -26,7 +26,7 @@ Simple parallax elements for the mouse. Pure JavaScript.
 	</div>
 	<!-- /.parallax -->
 	
-	<script src="https://cdn.jsdelivr.net/npm/parallax-mouse@1.0.0/dist/parallax-mouse.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/parallax-mouse@1.0.1/dist/parallax-mouse.min.js"></script>
 	<script>
 		parallaxMouse({ elements: '.cherry', moveFactor: 10, wrap: '.parallax', perspective: '100px' })
 	</script>
